@@ -7,6 +7,9 @@ const HomeScreen = () => {
 
   const navigation: any = useNavigation();
   
+    // This is where you would fetch your images from a server or local storage
+    // TODO: 2. Show all the images that are in your memories (try and use RealTime )
+
   return (
     <ScrollView style={styles.container}>
         <Pressable onPress={() => navigation.navigate("Add")}>
